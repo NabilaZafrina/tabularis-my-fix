@@ -1,0 +1,24 @@
+packages:
+  - packages/*
+
+ignoredBuiltDependencies:
+  - esbuild
+
+onlyBuiltDependencies:
+  - '@ladybugdb/core'
+  - '@scarf/scarf'
+  - gitnexus
+  - onnxruntime-node
+  - protobufjs
+  - sharp
+  - tree-sitter
+  - tree-sitter-c-sharp
+  - tree-sitter-cpp
+  - tree-sitter-go
+  - tree-sitter-java
+  - tree-sitter-javascript
+  - tree-sitter-php
+  - tree-sitter-python
+  - tree-sitter-ruby
+  - tree-sitter-rust
+  - tree-sitter-typescript
